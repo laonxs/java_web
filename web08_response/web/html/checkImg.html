@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>验证码</title>
+		<script type="text/javascript">
+			function checkImg() {
+				document.getElementById("s1").src = "/web_response/CheckImgServlet?date="+new Date();
+			}
+		</script>
+	</head>
+	<body>
+		<img id="s1" src="/web_response/CheckImgServlet" onclick="checkImg()">
+	</body>
+</html>

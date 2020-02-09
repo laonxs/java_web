@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/web-xml/web-xml.iml" filepath="$PROJECT_DIR$/web-xml/web-xml.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web_jdbc/web_jdbc.iml" filepath="$PROJECT_DIR$/web_jdbc/web_jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web02_jdbc/web02_jdbc.iml" filepath="$PROJECT_DIR$/web02_jdbc/web02_jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web03_xml/web03_xml.iml" filepath="$PROJECT_DIR$/web03_xml/web03_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web06_servlet/web06_servlet.iml" filepath="$PROJECT_DIR$/web06_servlet/web06_servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web07_request/web07_request.iml" filepath="$PROJECT_DIR$/web07_request/web07_request.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web08_response/web08_response.iml" filepath="$PROJECT_DIR$/web08_response/web08_response.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web09_cookie/web09_cookie.iml" filepath="$PROJECT_DIR$/web09_cookie/web09_cookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web10_session/web10_session.iml" filepath="$PROJECT_DIR$/web10_session/web10_session.iml" />
     </modules>
   </component>
 </project>

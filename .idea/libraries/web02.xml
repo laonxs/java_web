@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="web02">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/web02_jdbc/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/web02_jdbc/lib" recursive="false" />
+  </library>
+</component>

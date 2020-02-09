@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         id="WebApp_ID" version="2.5">
+    <context-param>
+        <param-name>name</param-name>
+        <param-value>name</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>cn.ade.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CountServlet</servlet-name>
+        <servlet-class>cn.ade.servlet.CountServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CountServlet</servlet-name>
+        <url-pattern>/CountServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletConfigDemo</servlet-name>
+        <servlet-class>cn.ade.servlet.ServletConfigDemo</servlet-class>
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>wangzp,tanhq</param-value>
+        </init-param>
+        <init-param>
+            <param-name>name1</param-name>
+            <param-value>wangzp1,tanhq1</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletConfigDemo</servlet-name>
+        <url-pattern>/ServletConfigDemo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletContextDemo</servlet-name>
+        <servlet-class>cn.ade.servlet.ServletContextDemo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletContextDemo</servlet-name>
+        <url-pattern>/ServletContextDemo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ClassLoader</servlet-name>
+        <servlet-class>cn.ade.servlet.ClassLoader</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClassLoader</servlet-name>
+        <url-pattern>/ClassLoader</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>cn.ade.servlet.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/HelloServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
