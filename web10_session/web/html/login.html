@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>使用验证码登录</title>
+		<script type="text/javascript">
+			function checkImg() {
+				document.getElementById("s1").src = "/web_session/CheckImgServlet?date="+new Date();
+			}
+		</script>
+	</head>
+	<body>
+		<form action="/web_session/LoginServlet" method="post">
+		username:<input type="text" name="username"><br>
+		checkcode:<input type="text" name="checkcode"><img id="s1" src="/web_session/CheckImgServlet" onclick="checkImg()"><br> 
+		<input type="submit" value="提交"> 
+		</form>
+	</body>
+</html>
