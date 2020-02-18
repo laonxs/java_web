@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/web08_response/web08_response.iml" filepath="$PROJECT_DIR$/web08_response/web08_response.iml" />
       <module fileurl="file://$PROJECT_DIR$/web09_cookie/web09_cookie.iml" filepath="$PROJECT_DIR$/web09_cookie/web09_cookie.iml" />
       <module fileurl="file://$PROJECT_DIR$/web10_session/web10_session.iml" filepath="$PROJECT_DIR$/web10_session/web10_session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web11_jsp/web11_jsp.iml" filepath="$PROJECT_DIR$/web11_jsp/web11_jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web12_el/web12_el.iml" filepath="$PROJECT_DIR$/web12_el/web12_el.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web13_jstl/web13_jstl.iml" filepath="$PROJECT_DIR$/web13_jstl/web13_jstl.iml" />
     </modules>
   </component>
 </project>
