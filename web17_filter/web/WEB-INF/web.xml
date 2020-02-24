@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         id="WebApp_ID" version="2.5">
+
+    <!-- filter 入门 -->
+    <servlet>
+        <servlet-name>ServletDemo</servlet-name>
+        <servlet-class>cn.ade.servlet.ServletDemo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo</servlet-name>
+        <url-pattern>/ServletDemo</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <display-name>MyFilter</display-name>
+        <filter-name>MyFilter</filter-name>
+        <filter-class>cn.ade.filter.MyFilter</filter-class>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>张三</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>MyFilter</filter-name>
+        <url-pattern>/ServletDemo</url-pattern>
+    </filter-mapping>
+
+    <!-- 自动登陆 -->
+    <servlet>
+        <description></description>
+        <display-name>AutoLoginServlet</display-name>
+        <servlet-name>AutoLoginServlet</servlet-name>
+        <servlet-class>cn.ade.servlet.AutoLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AutoLoginServlet</servlet-name>
+        <url-pattern>/AutoLoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <display-name>AutoLoginFilter</display-name>
+        <filter-name>AutoLoginFilter</filter-name>
+        <filter-class>cn.ade.filter.AutoLoginFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AutoLoginFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <!-- post方式请求编码处理 -->
+    <filter>
+        <display-name>GenericEncodingFilter</display-name>
+        <filter-name>GenericEncodingFilter</filter-name>
+        <filter-class>cn.ade.filter.GenericEncodingFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>GenericEncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+</web-app>

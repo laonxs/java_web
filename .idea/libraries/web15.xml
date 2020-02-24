@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="web15">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/web15_transaction/web/WEB-INF/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/web15_transaction/web/WEB-INF/lib" recursive="false" />
+  </library>
+</component>

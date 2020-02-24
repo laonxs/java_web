@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         id="WebApp_ID" version="2.5">
+
+    <!-- 测试 Listener -->
+    <servlet>
+        <servlet-name>ServletDemo</servlet-name>
+        <servlet-class>cn.ade.servlet.ServletDemo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo</servlet-name>
+        <url-pattern>/ServletDemo</url-pattern>
+    </servlet-mapping>
+
+    <!-- 配置 ServletContext 创建和销毁 的监听器 -->
+    <listener>
+        <listener-class>cn.ade.listener.MyServletContextListener</listener-class>
+    </listener>
+    <!-- 配置 ServletContext 属性变化 的监听器 -->
+    <listener>
+        <listener-class>cn.ade.listener.MyServletContextAttributeListener</listener-class>
+    </listener>
+
+    <!-- 配置 Request 创建和销毁 的监听器 -->
+    <listener>
+        <listener-class>cn.ade.listener.MyServletRequestListener</listener-class>
+    </listener>
+    <!-- 配置 Request 属性变化 的监听器 -->
+    <listener>
+        <listener-class>cn.ade.listener.MyServletRequestAttributeListener</listener-class>
+    </listener>
+
+    <!-- 配置 Session 创建和销毁 的监听器 -->
+    <listener>
+        <listener-class>cn.ade.listener.MyServletSessionListener</listener-class>
+    </listener>
+    <!-- 配置 Session 属性变化 的监听器 -->
+    <listener>
+        <listener-class>cn.ade.listener.MyServletSessionAttributeListener</listener-class>
+    </listener>
+
+</web-app>
