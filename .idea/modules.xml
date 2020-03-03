@@ -16,6 +16,8 @@
       <module fileurl="file://$PROJECT_DIR$/web15_transaction/web15_transaction.iml" filepath="$PROJECT_DIR$/web15_transaction/web15_transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/web16_listener/web16_listener.iml" filepath="$PROJECT_DIR$/web16_listener/web16_listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/web17_filter/web17_filter.iml" filepath="$PROJECT_DIR$/web17_filter/web17_filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web18_annotation/web18_annotation.iml" filepath="$PROJECT_DIR$/web18_annotation/web18_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web19_proxy/web19_proxy.iml" filepath="$PROJECT_DIR$/web19_proxy/web19_proxy.iml" />
     </modules>
   </component>
 </project>
