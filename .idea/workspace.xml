@@ -7,7 +7,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21129d3f-5b8f-422a-8800-4949f72491de" name="Default" comment="">
+    <list default="true" id="21129d3f-5b8f-422a-8800-4949f72491de" name="Default" comment="web18_annotation&#10;web19_proxy">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="out/artifacts/web10_war_exploded/index.jsp" />
@@ -700,7 +700,7 @@
       <workItem from="1581778545720" duration="28434000" />
       <workItem from="1582453149421" duration="10048000" />
       <workItem from="1582636283663" duration="13576000" />
-      <workItem from="1583327998960" duration="590000" />
+      <workItem from="1583327998960" duration="627000" />
     </task>
     <task id="LOCAL-00001" summary="web-jdcb&#10;web-xml">
       <created>1580905497526</created>
@@ -744,7 +744,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583328569263</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="web18_annotation&#10;web19_proxy">
+      <created>1583328598400</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583328598400</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -762,7 +769,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101764000" />
+    <option name="totallyTimeSpent" value="101801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
